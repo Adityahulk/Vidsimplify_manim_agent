@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Manim
+media/
+backend/media/
+backend/scene_*.py
+
+# Node/Frontend
+node_modules/
+dist/
+.DS_Store
+
+# Generated Assets (if any temporary ones are created in root)
+*.svg
+*.png
+*.mp4
+!frontend/src/assets/*.svg
+!frontend/src/assets/*.png
+
+# Logs
+*.log
